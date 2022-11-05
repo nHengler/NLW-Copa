@@ -1,0 +1,57 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ul {
+  list-style: none;
+}
+
+body { /*seletor de tag html */
+  background-color: #121214; /*propriedade seguida de valor */
+  background-image: url(./assets/bg.svg); /*caminho pra imagem de fundo */
+  background-position-x: center; /*posição horizontal */
+  background-position-y: 55.6%; /* posição vertical */
+  }
+
+#app { /*id do html */
+    /*border: 1px solid rgb(117, 10, 10);  cor da borda do id selecionado */
+    width: fit-content; 
+    margin: 52px auto;
+  }
+
+header{
+    margin-bottom: 63px;
+}
+
+.card {
+  
+  padding: 32px 23px;
+  text-align: center; /*deixa os elementos centralizados */
+  background: #1d1c19;
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 6px; 
+}
+
+
+
+.card h2 { /* dentro do card, procura o h2 */
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid #746615;
+  border-radius: 6px;
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px; /* margem de baixo */
+  color: #F7DD43; 
+
+
+
+}
+
+
+
